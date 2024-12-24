@@ -5,12 +5,9 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'cabin': ['Cabin'],
-        'merri': ['Merriweather']
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
+
+console.log('Tailwind config is loaded');
